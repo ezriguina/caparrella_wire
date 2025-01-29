@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #003366;
+            color: white;
+            padding: 10px 20px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #ddd;
+            height: 300px;
+            text-align: center;
+        }
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+        .news, .courses, .achievements {
+            background: #f9f9f9;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .news article, .courses article, .achievements article {
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px;
+            background: #003366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .partners {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+        .footer {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="/pages/logo_cap.webp" alt="" width="50%"></div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="pages/cursos.html">Cursos</a></li>
+                <li><a href="pages/noticias.html">Noticias</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner">
+Banner
+    </section>
+    
+    <section class="news section">
+        <h2>Noticias</h2>
+        <article>
+            <h3>Nuevo curso de programación</h3>
+            <p>Este mes se ha inaugurado un nuevo curso de programación web.</p>
+        </article>
+        <article>
+            <h3>Competencia de matemáticas</h3>
+            <p>Los alumnos participaron en una competencia regional de matemáticas.</p>
+        </article>
+        <a href="pages/noticias.html" class="btn">Leer más</a>
+    </section>
+    
+    <section class="courses section">
+        <h2>Cursos</h2>
+        <article>
+            <h3>Curso de Diseño Web</h3>
+            <p>Aprende los fundamentos del diseño web con HTML, CSS y JavaScript.</p>
+        </article>
+        <article>
+            <h3>Curso de Inteligencia Artificial</h3>
+            <p>Descubre cómo funciona la IA y sus aplicaciones en el mundo real.</p>
+        </article>
+        <a href="pages/cursos.html" class="btn">Ver más cursos</a>
+    </section>
+    
+    <section class="achievements section">
+        <h2>Logros de nuestros alumnos</h2>
+        <article>
+            <h3>Premio en robótica</h3>
+            <p>Un equipo de estudiantes ganó el primer lugar en una competencia nacional de robótica.</p>
+        </article>
+        <article>
+            <h3>Beca internacional</h3>
+            <p>Una alumna recibió una beca para estudiar en el extranjero.</p>
+        </article>
+        <a href="pages/logros.html" class="btn">Ver más logros</a>
+    </section>
+    
+    <section class="partners">
+        <div>Partner 1</div>
+        <div>Partner 2</div>
+        <div>Partner 3</div>
+    </section>
+    
+    <footer class="footer">
+        <p>Dirección: Partida Caparrella 98, 25192 Lleida</p>
+        <p>Teléfono: 973 28 81 80</p>
+        <p>Correo electrónico: info@iescaparrella.cat</p>
+        <p><a href="https://www.iescaparrella.cat">Sitio web oficial</a></p>
+    </footer>
+</body>
+</html>
